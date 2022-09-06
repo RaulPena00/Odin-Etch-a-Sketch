@@ -1,0 +1,22 @@
+#container {
+	top: 30px;
+	outline:2px solid #000;
+	font-size: 0;
+	margin:auto;
+	height:900px;
+	width:900px;
+	padding: 0;
+	border: none;
+}
+
+.squares{
+	margin:0;
+	padding:10px;
+	border:0;
+    outline:1px solid #000;
+	display:inline-block;
+}
+
+.squares:hover{
+    background-color: black;
+}

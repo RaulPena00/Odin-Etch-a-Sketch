@@ -3,20 +3,28 @@
 	outline:2px solid #000;
 	font-size: 0;
 	margin:auto;
-	height:900px;
-	width:900px;
+	height:960px;
+	width:960px;
 	padding: 0;
 	border: none;
+	
 }
 
 .squares{
-	margin:0;
-	padding:10px;
+	height: 60px;
+	width: 60px;
 	border:0;
     outline:1px solid #000;
 	display:inline-block;
+	overflow: hidden;
+	margin-left: auto;
 }
 
 .squares:hover{
     background-color: black;
+}
+
+.button-container{
+	text-align: center;
+	margin-bottom: 5px;
 }

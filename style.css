@@ -7,21 +7,16 @@
 	width:960px;
 	padding: 0;
 	border: none;
-	
+	overflow: hidden;
 }
 
 .squares{
-	height: 60px;
-	width: 60px;
+	padding:0;
 	border:0;
     outline:1px solid #000;
 	display:inline-block;
 	overflow: hidden;
 	margin-left: auto;
-}
-
-.squares:hover{
-    background-color: black;
 }
 
 .button-container{
